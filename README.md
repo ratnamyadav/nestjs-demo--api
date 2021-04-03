@@ -58,6 +58,16 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+### Creating Entity
+```bash
+$ yarn run typeorm entity:create -n car -d src/entity/car.entity
+```
+
+### Creating migration
+```bash
+$ yarn run typeorm migration:create -n CreateCars -d migration/create_cars.migration
+```
+
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
